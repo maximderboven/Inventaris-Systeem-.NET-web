@@ -1,0 +1,9 @@
+WANNEER ?		MAXIM					ALEXIE
+woensdag avond		Filter, popup 				todoForReal.txt
+donderdag ochtend	lijstje voor frontend			code overzetten M > A
+			andere filters & popups maken/code chec	lijstje frontend creeeren
+			Lijstje frontend creeeren		Lijstje frontend
+donderdag middag	FRONTEND				FRONTEND
+donderdag avond		code samenvoegen			code samenvoegen 
+
+**Lijstje frontend** : Design gridviews, relatie stock gebruiker, toevoeg knoppen en hide panels, filter hides, icoontjes

@@ -1,0 +1,25 @@
+ToDoList
+- Filter: op wat?
+Alles(Type, merk, model, serienummer, Leverancier, Factuurnummer, SOL, Stock, Gebruiker) makkelijk
+Per onderdeel DROPDOWNLIST incl. Alles
+
+
+
+Situaties:
+- Alle [monitors] ouder dan 5 jaar in het bezit van Alexie Chaerle
+- Alle muizen (alle apparaten) die al naar het stort zijn
+- Alle toetsenborden (alle types) in stock
+
+SELECT * FROM tblapparaten WHERE tblapparaten.id IS NOT NULL @type @jaar @bezit;
+
+if (Checkbox.Type.Checked = true-
+{
+@type = AND tbltype.naam = type;
+}
+else
+{
+@type = "";
+}
+
+@jaar = AND tblapparaten.aankoopdatum > (CURDATum-5)
+@bezit = AND tblhistoriek.naam = naam;

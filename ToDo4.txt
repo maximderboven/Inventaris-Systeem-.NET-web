@@ -1,0 +1,14 @@
+*Todo*
+!Auto historiek (ingebruik, uitgebruik) aanmaken bij:
+-> Nieuw apparaat <!--CHECK-->
+-> Verandering stock naar gebruiker 
+-> Bij nieuwe gebruiker 
+-> Gebruiker -> gebruiker 
+Wanneer EOL of status -> Uit lijst met apparaten of werknemers
+
+- Delete wordt: actief / inactief
+            > apparaten - EOL invullen met CUR dat
+            > Gebruiker - Status = 0 (nog tinyInt van maken);
+
+- Kan geen gebruiker updaten via apparaten
+- Postback uitschakelen op textbox (zonder jquery)

@@ -1,0 +1,53 @@
+- google drive opruimen
+Maxim:
+	- Backend programming: auto historie bij : 	- Andere gebruiker bij edit (EN GEEN stock)
+							- Van stock naar gebruiker
+							- nieuwe gebruiker ook
+	- gebruiker naar stock of gebruiker naar gebruiker auto uitgebruik bij historiek
+	- Custom filter vervolledigen & search verwijderen : text laten staan na filter in txtbox.
+	- Custom filter ook maken voor andere gridviews.
+	- Hstoriek button fixen op gridview
+	- dubbele id ophaal code eruit.
+	- Wanneer er een EOL is, uit standaar lijst
+	- Details knop: gedetailleerde lijst over het apparaat / historiek
+	- Delete wordt: actief / inactief
+			> apparaten - EOL invullen met CUR dat
+			> Gebruiker - Status = 0 (nog tinyInt van maken);
+	- SOL toevoegen zowel bij create als bij edit
+	- stock vs gebruiker relatie afstellen
+	- mogelijkheid de filters te verbergen
+	- export to excel (de selected fields en header)
+
+
+Alexie:
+Volledig op niveau brengen:
+	- SQLDataSource of Databind : Welke ? En waarom ? 
+			>>> In documentje (DataSource_bind.txt)
+	- Gridviews bijwerken
+		- Apparaten : EDIT, SELECTIEVAKJES, DUIDELIJKE KOLOMMEN (Geen overbodige > Details panel later)
+		- Historiek : EDIT (beperkt), SELECTIEVAKJES, DUIDELIJKE KOLOMMEN (Geen overbodige > Details panel later)
+		- Werknemers : EDIT, SELECTIEVAKJES, DUIDELIJKE KOLOMMEN (Geen overbodige > Details panel later)
+		- Leveranciers : EDIT, SELECTIEVAKJES, DUIDELIJKE KOLOMMEN
+			>>> Benamingen van de gridview elementen en controls in documentje (benamingen_gridview.txt)
+			>>> in DetailPanel.txt een opsomming van welke kolomen er gentootn worden in de grid, en welke allemaal extra erbij komen wanneer er een detail getoont wordt.
+	- Create & Nieuw
+		In het controlpanel de mogelijkheid om een nieuw apparaat, gebruiker, werknemer, Leverancier aan te maken.
+		Alle vaste waarden moeten uit een DDL komen.
+		Indien de waarde niet bestaat (bv. Type: Muis staat niet in de DDLType) moet er een mogelijkheid zijn deze aan te maken in een textbox (txtTypeNew), deze mogelijkheid moet afgesloten zijn van de Create.
+		Wanneer het nieuwe type is aangemaakt staat deze wel in de DDL zonder reload, en de eerder ingevulde data (model, of serienummer) staat er nog in.
+		respecteer naamgeving: naamgeving.txt
+	- Code updaten op last: Gridview.Visible = bool over zetten.
+	- Postbacks & grid/controlbinds checken : apparaat aanmaken bij pb ? Bugs als verloren data bij postback of resets van filters etc. TESTEN EN OPLOSSEN
+	- 
+
+Nadenken over:
+	- Welke eventen worden wanneer gefired
+	- Wat moeten op het scherm staan wanneer er een gridview open staat
+	- wanneer moeten er andere elementen/controls in beeld komen.
+
+Design:
+	- icoontjes
+	- gridview duidelijk
+	- blockeer knoppen als: inactief / actief / export wanneer niets geselect is.
+	- #nadenken over hier toepassen
+	- knop bekijk duidelijk welke er open staat

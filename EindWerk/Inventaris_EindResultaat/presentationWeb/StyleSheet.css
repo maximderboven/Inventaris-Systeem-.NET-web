@@ -1,0 +1,176 @@
+﻿
+.auto-style3 {
+    width: 103px;
+    height: 103px;
+}
+
+body, html, * {
+    margin: 0;
+}
+
+.header {
+    background-color: #1C9F75;
+    margin: 0;
+    padding: 0;
+}
+
+.gridview{
+    margin: 14px;
+}
+
+.headertekst {
+    color: white;
+    font-family: Verdana, Arial;
+}
+
+.btnbekijk {
+    background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+    background-color: #f9f9f9;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+
+.btnbekijk:hover {
+    background: linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+    background-color: #e9e9e9;
+}
+
+.btnbekijk:active {
+    position: relative;
+    top: 1px;
+}
+
+.btnStyle {
+    background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+    background-color: #f9f9f9;
+    border: 1px solid #dcdcdc;
+    padding: 10px 15px;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #ffffff;
+}
+
+.newStyle1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: #C0C0C0;
+}
+
+.controls{
+    margin: 15px;
+}
+
+.footer {
+    text-align: center;
+    color: grey;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+.mydropdownlist {
+    color: #666666;
+    padding: 1px 1px;
+    border-radius: 2px;
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+input[type=text] {
+    padding: 6px 10px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.TabStyle {
+margin-left:15px;
+}
+
+.auto-style4 {
+    width: 103px;
+}
+.auto-style5 {
+    width: 741px;
+}
+
+.auto-style7 {
+    height: 87px;
+}
+
+.auto-style8 {
+    margin-right: 0;
+}
+
+th a {
+    text-decoration: none;
+}
+
+.modalBackground {
+    background-color: Black;
+    filter: alpha(opacity=40);
+    opacity: 0.4;
+}
+
+.modalPopup {
+    background-color: #FFFFFF;
+    width: 300px;
+    border: 3px solid #1C9F75;
+}
+
+    .modalPopup .header {
+        background-color: #1C9F75;
+        height: 30px;
+        color: White;
+        line-height: 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .modalPopup .body {
+        min-height: 50px;
+        line-height: 30px;
+        text-align: center;
+        padding: 5px
+    }
+
+    .modalPopup .footer {
+        background-color: #1C9F75;
+        height: 30px;
+        color: White;
+        line-height: 30px;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 0;
+        position: relative;
+        display: block;
+    }
+
+    .modalPopup .button {
+        height: 23px;
+        color: White;
+        line-height: 23px;
+        text-align: center;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: #9F9F9F;
+        border: 1px solid #5C5C5C;
+    }
+
+    .modalPopup td {
+        text-align: left;
+    }
